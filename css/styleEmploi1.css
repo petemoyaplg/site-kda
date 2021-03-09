@@ -1,0 +1,61 @@
+@font-face {
+    font-family: MontserratBlack;
+    src: url(Montserrat/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url(Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url(Montserrat/Montserrat-Bold.ttf);
+}
+
+h1, h2, h3 {
+    font-family: MontserratBold, sans-serif;
+    color: #111111;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 45px;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+p, a, ul {
+    font-family: MontserratRegular, sans-serif;
+}
+
+ul {
+    margin-left: 40px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/*Première section*/
+
+.btn {
+    padding: 15px 25px;
+    background-color: #d92950;
+    border-width: 2px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+}

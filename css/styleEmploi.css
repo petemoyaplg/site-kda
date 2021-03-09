@@ -1,0 +1,250 @@
+@font-face {
+    font-family: MontserratBlack;
+    src: url(Montserrat/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: MontserratRegular;
+    src: url(Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url(Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu Mono;
+    src: url(Ubuntu_Mono/UbuntuMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-Black.ttf);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: #111111;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 45px;
+    color: #111111;
+}
+
+h3 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #111111;
+}
+
+ul {
+    margin-left: 40px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/*Première section*/
+
+#jobs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: auto;
+    padding: 100px 15px;
+    height: auto;
+    margin: 0px 0px 16px;
+}
+
+#section_1 {
+    width: 100vw;
+    margin-top: 80px;
+    padding: 100px 0;
+}
+
+#offre {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.type_offre {
+    width: 32%;
+    margin-bottom: 30px;
+    background: #F1F0F3;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.type_offre h4 {
+    font-family: MontserratBold, sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: rgb(66, 67, 69);
+}
+
+.type_offre p {
+    font-family: MontserratRegular, sans-serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+    color: rgb(66, 67, 69);
+}
+
+.type_offre a {
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #d92950;
+    font-size: 1.1em;
+}
+
+.link {
+    position: relative;
+    font-weight: bolder;
+    color: #d92950;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.link-btn {
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: bolder;
+    background-color: #d92950;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 15px;
+    position: relative;
+    width: 80%;
+}
+
+.btn {
+    padding: 15px 25px;
+    background-color: #d92950;
+    border-width: 2px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-envoyer:hover {
+    background: none;
+    border: 2px solid white;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+/*Deuxième section*/
+
+#titre-section-2, .text-center {
+    color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+}
+
+#contact {
+    background-color: rgb(29, 27, 37);
+    line-height: 24px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px;
+    padding: 100px 0px;
+}
+
+#div-section-2 {
+    color: rgba(255, 255, 255, 0.87);
+    margin: auto;
+    width: 85vw;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+}
+
+.col {
+    display: flex;
+    width: 100%;
+}
+
+.col-element {
+    width: 50%;
+    /*border: 1px solid white;*/
+    padding: 15px;
+}
+
+.row {
+    /*border: 1px solid white;*/
+}
+
+.row-2 {
+    margin: auto;
+    width: 97.5%;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-radius: none !important;
+}
+
+select {
+    appearance: none;
+    background-image: url(double-arrow-svgrepo-com.svg);
+    background-color: white;
+    background-size: .7em;
+    background-position: calc(98%) center;
+    background-repeat: no-repeat;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
+
+textarea::placeholder {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.btn-envoyer {
+    font-size: 16px;
+    padding: 20px 20px;
+    justify-content: center;
+    margin-top: 10px;
+    width: 140px !important;
+    border: none !important;
+}

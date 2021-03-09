@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="css/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.2-web/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleEmploi.css">
+    <title>Kinshasa Digital Recrute | Kinshasa Digital</title>
+</head>
+
+<body>
+    <!--Entête de la page-->
+    <header>
+        <nav>
+            <div id="logo">
+                <a href="accueil.html"><img src="css/images/logo_white.png" alt="Logo de Kinshasa Digital"
+                        id="logokda"></a>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#academy">Academy</a></li>
+                    <li><a class="current" href="emploi.html">Emploi</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Corp de la page-->
+    <main>
+        <!--Section emploi-->
+        <section class="content" id="jobs">
+            <h1 class="titre_noir">Nos Offres</h1>
+            <div id="offre">
+                <div class="type_offre">
+                    <h4>Account Manager Senior/ Responsable clientèle</h4>
+                    <p>Début : ASAP</p>
+                    <a href="#" class="underline-link">Voir et Postuler</a>
+                </div>
+                <div class="type_offre">
+                    <h4>Graphic Designer</h4>
+                    <p>Début : ASAP</p>
+                    <a href="#" class="underline-link">Voir et Postuler</a>
+                </div>
+                <div class="type_offre">
+                    <h4>Développeur Web</h4>
+                    <p>Début : ASAP</p>
+                    <a href="#" class="underline-link">Voir et Postuler</a>
+                </div>
+                <div class="type_offre">
+                    <h4>Agent de télémarketing B2B</h4>
+                    <p>Début : ASAP</p>
+                    <a href="#" class="underline-link">Voir et Postuler</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Section contacte-->
+
+        <section id="contact">
+            <div id="div-section-2">
+                <h2 id="titre-section-2">Formulaire de contact</h2>
+                <p class="text-center">
+                    <strong>
+                        Si vous souhaitez-vous préinscrire à la Kinshasa Digital Academy veuillez remplir le
+                        <a href="https://forms.gle/TWhrLbszcZZRRry16" class="link underline-link">
+                            formulaire de préinscription</a>.
+                    </strong>
+                </p>
+
+                <div class="container">
+                    <form class="">
+                        <div id="formulaire">
+                            <div class="col">
+                                <div class="col-element">
+                                    <label for="titre">Quel titre vous décrit le mieux ?</label>
+                                    <select id="titre">
+                                        <option value=""></option>
+                                        <option value="consultant">Consultant</option>
+                                        <option value="entrepreneur">Entrepreneur</option>
+                                        <option value="etudiant">Etudiant</option>
+                                        <option value="start-up">Représentant d'une Start-up</option>
+                                        <option value="pme">Représentant d'une PME</option>
+                                        <option value="grande_entreprise">Représentant d'une Grande entreprise</option>
+                                        <option value="ong">Représentant d'une ONG</option>
+                                        <option value="autre">Autre</option>
+                                    </select>
+                                    <input id="firstName" type="text" placeholder="Prénom">
+                                    <input id="lastName" type="text" placeholder="Nom">
+                                    <input id="phone" type="text" placeholder="Téléphone">
+                                    <input id="email" type="text" placeholder="E-mail">
+                                </div>
+
+                                <div class="col-element">
+                                    <label for="secteur-activite">Secteur d'activité</label>
+                                    <select id="secteur-activite">
+                                        <option value=""></option>
+                                        <option value="Agriculture et foresterie">Agriculture et foresterie</option>
+                                        <option value="Aéroport">Aéroport</option>
+                                        <option value="Construction">Construction</option>
+                                        <option value="Centrées des données / IT">Centrées des données / IT</option>
+                                        <option value="Exportateur">Exportateur</option>
+                                        <option value="Education">Education</option>
+                                        <option value="Gouvernement">Gouvernement</option>
+                                        <option value="Services Santé">Services Santé</option>
+                                        <option value="Hôpital">Hôpital</option>
+                                        <option value="Industrie de manufacturing">Industrie de manufacturing</option>
+                                        <option value="Militaire / Défense">Militaire / Défense</option>
+                                        <option value="Exploitation Minière">Exploitation Minière</option>
+                                        <option value="Petrolière">Petrolière</option>
+                                        <option value="Location">Location</option>
+                                        <option value="Supermarché / Centre Commercial">Supermarché / Centre Commercial
+                                        </option>
+                                        <option value="Télécommunication">Télécommunication</option>
+                                        <option value="Transport">Transport</option>
+                                        <option value="Traitement d'eau">Traitement d'eau</option>
+                                        <option value="Autre">Autre</option>
+                                    </select>
+                                    <input id="company" type="text" placeholder="Nom de votre entreprise">
+                                    <input id="website" type="text" placeholder="Site Web">
+                                    <input id="city" type="text" placeholder="Ville">
+                                </div>
+                            </div>
+
+                            <div class="row row-2">
+                                <label>Type de demande</label>
+                                <select>
+                                    <option value=""></option>
+                                    <option value="site_web">Développement: Site Internet</option>
+                                    <option value="app_mobile">Développement: Application mobile
+                                    </option>
+                                    <option value="app_gestion">Développement: Application de Gestion
+                                    </option>
+                                    <option value="autre_developpement">Développement: Autre demande ou
+                                        autre besoin en technologie de l'information</option>
+                                    <option value="evenement_partenariat">Evénement : Demande de
+                                        partenariat</option>
+                                    <option value="evenement_autre">Evénement: Autre question</option>
+                                    <option value="kda_partenariat">Kinshasa Digital Academy: Demande de
+                                        partenariat</option>
+                                    <option value="kda_recrutement">Kinshasa Digital Academy: Demande de
+                                        recrutement de nos apprenants</option>
+                                    <option value="kda_programme">Kinshasa Digital Academy: Demande de
+                                        renseignement concernant le programme</option>
+                                    <option value="kda_projet_impact_social">Kinshasa Digital Academy:
+                                        Soumettre un projet à impact social</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                                <textarea id="message"
+                                    placeholder="Demande : merci d'indiquer le maximum de précision afin qu'on puisse vous donner une réponse complète"></textarea>
+                            </div>
+
+                            <div class="row row-2">
+                                <p>Dû à un nombre important de demandes, nous ne traiterons pas les messages
+                                    concernant les inscriptions à KDA, inscrivez-vous à l’aide du <a
+                                        href="https://forms.gle/TWhrLbszcZZRRry16" class="link underline-link">formulaire</a>.<br>
+                                    Pour toute demande de devis, merci de nous donner le maximum de détails
+                                    possible afin de nous aider à vous répondre le plus précisément possible
+                                </p>
+                                <button type="submit" class="btn btn-envoyer">Envoyer</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!--Pied de la page-->
+    <footer>
+        <div class="container-2">
+            <div class="container-2-2">
+                <address>
+                    <strong>Kinshasa Digital</strong><br>
+                    Texaf Digital Campus<br>
+                    Concession COTEX (Référence: en face de l’Ambassade de France)<br>
+                    N° 63 Avenue Colonel Mondjiba<br>
+                    Commune de Ngaliema - Kinshasa<br>
+                    République Démocratique du Congo
+                </address>
+                <br><br>
+                <div>
+                    <a href="mailto:info@kinshasadigital.com" class="foot underline-link">info@kinshasadigital.com</a>
+                    <br>
+                    <a href="tel:+243891341236" class="foot underline-link">+243 891 341 236</a>
+                </div>
+                <ul class="social-links">
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/KinshasaDigital/">
+                            <i class="fab fa-facebook-f color-icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://twitter.com/kinshasadigital">
+                            <i class="fab fa-twitter color-icon"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://fr.linkedin.com/company/kinshasa-digital">
+                            <i class="fab fa-linkedin color-icon"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container-2-2">
+                <p>Inscrivez-vous à notre <strong>newsletter</strong> pour vous tenir au courant de nos activités.
+                </p>
+                <div>
+                    <form>
+                        <div>
+                            <div id="input-button">
+                                <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Adresse E-mail">
+                                <div class="input-group-append">
+                                    <button name="subscribe" id="mc-embedded-subscribe" class="button btn btn-alt">
+                                        S'inscrire
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_d2bddddfff65ccab48e88d77a_78c0cc34c8" tabindex="-1" value="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <h6 class="mt-auto "><a class="text-white underline-link" href="/mentions-legales">Mentions Légales</a></h6>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
